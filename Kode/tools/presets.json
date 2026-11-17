@@ -1,0 +1,21 @@
+{
+  "reference_look": {
+    "lens_amount": 0.08,
+    "ca_amount": 0.8,
+    "vig_amount": 0.8,
+    "vig_zone_start": 0.35,
+    "vig_softness": 0.6,
+    "zone_roundness": 1.0,
+    "bloom_intensity": 0.25,
+    "bloom_threshold": 0.65,
+    "bloom_radius": 1.2,
+    "halation_intensity": 0.35,
+    "halation_threshold": 0.8,
+    "halation_radius": 0.7,
+    "grain_amount": 0.25,
+    "grain_size": 0.8,
+    "grain_roughness": 0.35,
+    "grain_color": 0.4,
+    "grain_midtone_bias": 0.5
+  }
+}

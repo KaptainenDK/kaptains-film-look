@@ -1,0 +1,28 @@
+KAPTAINS FILM LOOK  -  film look for After Effects and Premiere Pro (Mac, Apple silicon)
+Lens distortion, chromatic aberration, lens blur, vignette, bloom, halation and grain, with zones.
+Free and open source (GPL v3). Development version (0.1.0).
+
+INSTALL
+1. Unzip the download (double-click the .zip). Keep all the files together in one folder.
+2. Open "Install Kaptains Film Look.command".
+   macOS may say it cannot be opened because it is from an unidentified developer. Then: right-click the file > Open > Open.
+   (Or in Terminal:  xattr -cr "<the unzipped folder>"  and open it again.)
+3. Type your Mac password when asked (the plug-in goes in the shared Adobe folder, so it works for both programs).
+4. Quit and restart After Effects / Premiere Pro.
+
+WHERE TO FIND IT
+After Effects: Effect > Kaptain > Kaptains Film Look.
+Premiere Pro:  Effects panel > Video Effects > Kaptain > Kaptains Film Look.
+
+GOOD TO KNOW
+- After Effects uses the GPU (Metal). Premiere Pro currently renders the effect on the CPU, so heavy settings can be slower there.
+- Needs an Apple silicon Mac (M1 or newer). Intel Macs and Windows are not supported yet.
+- The plug-in is not notarized by Apple (it is a free development build), which is why steps 2-3 above are needed.
+- "Show Zones" in Premiere is burned into the picture: turn it off before rendering.
+
+LICENSE AND SOURCE CODE
+Copyright (C) 2026 Henrik Jonas Kaptain. Free software under the GNU GPL v3 or later, see LICENSE and LICENSE-EXCEPTION.
+Source code: https://github.com/KaptainenDK/kaptains-film-look
+
+UNINSTALL
+Move  /Library/Application Support/Adobe/Common/Plug-ins/7.0/MediaCore/KaptainsFilmLook.plugin  to the Trash and restart the Adobe apps.
