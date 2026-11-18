@@ -1,6 +1,6 @@
 # Kaptains Film Look
 
-A free and open source plug-in for After Effects and Premiere Pro that makes digital footage look like it was shot through a real lens on film. Made by Henrik Jonas Kaptain, video editor and promo producer (kaptainen.dk).
+A free and open source plug-in for After Effects and Premiere Pro that makes digital footage look more like it was shot through a real lens on film. Made by Henrik Jonas Kaptain, video editor and promo producer (kaptainen.dk).
 
 ![Before and after Kaptains Film Look](mig_before_after_v3.jpg)
 
